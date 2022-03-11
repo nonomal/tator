@@ -421,7 +421,7 @@ export class TypeForm extends TatorElement {
   _deleteType() {
     this._modalCloseCallback();
     this.loading.showSpinner();
-    console.log("UI code is new!");
+
     let deleteType = new TypeDelete({
       "type": this.typeName,
       "typeId": this.typeId
