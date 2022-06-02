@@ -54,4 +54,11 @@ annotation_filter_parameter_schema = [
                        'This search is applied to parent media of annotations only.',
         'schema': {'type': 'string'},
     },
+    {
+        'name': 'elementalId',
+        'in': 'query',
+        'description': 'Elemental ID to search for',
+        'schema': {'type': 'string'},
+        'required': False,
+    },
 ]
